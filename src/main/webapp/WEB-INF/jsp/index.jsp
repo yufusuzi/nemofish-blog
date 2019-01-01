@@ -14,6 +14,7 @@
 	<%@include file="header.jsp"%>
 	<!--/_header 作为公共模版分离出去end-->
 	<!-- _main 主体部分start -->
+
 	<%@include file="main.jsp" %>
 	<!-- _main 主体部分end -->
 	<!-- _footer 作为公共模板分离出去start -->

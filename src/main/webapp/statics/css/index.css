@@ -43,17 +43,28 @@ a:hover {
 }
 
 #main {
-	height: 2000px;
+	/*height: 2026px;*/
+	/*margin-bottom: 72px;*/
 }
 
 .container-main {
 	max-width: 1180px;
+	height: 2072px;
 	margin: 0 auto;
 	text-align: left;
 	position: relative;
-	/*background-color: #204D74;*/
 }
-
+.content-left {
+	width: 69%;
+    padding-left: 15px;
+    margin-top: 20px;
+    height: 1960px;
+    float: left;
+}
+.slideshow {/*轮播图*/
+	width: 100%;
+    height: 332px;
+}
 .footer-inner {
 	padding: 16px 20px 14px;
 	color: #aaa;
@@ -64,21 +75,17 @@ a:hover {
 	font-size: 11px;
 }
 
-.content-wrap {
-	width: 100%;
-	padding-left: 15px;
-	margin-top: 20px;
-}
+
 
 .content {
-	position: absolute;
-	top: 350px;
-    width: 68%;
-    margin-left: 9px;
-	height: 1200px;
-	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-	border-radius: 6px;
-	/*background-color: #ffffff;*/
+	position: relative;
+    width: 100%;
+    top: 20px;
+    margin-left: 0px;
+    padding-bottom: 57px;
+    /*height: 1620px;*/
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
 }
 #blogtab{
 	overflow: hidden;
@@ -135,29 +142,26 @@ a:hover {
     line-height: 1.5;
     display: inline-block;
 }
-.content-article-list{
-	width: 700px;
-	overflow: hidden;
-    margin-bottom: 20px;
-    padding: 20px;
-    background: #F40;	
+.content-article-page{
+}
+.pagination {
+    display: inline-block;
+    padding-left: 0;
+    margin: 0px 20px 0 0;
+    float: right;
+    border-radius: 4px;
 }
 
-.carousel-a {
-	width: 68%;
-	height: 352px;
-	float: left;
+
+.content-right {
+	float: right;
+    margin-left: 46px;
+    height: 800px;
+    width: 27%;
+    margin-top: 20px;
 }
 
-.sidebar {
-	float: left;
-	margin-left: 35px;
-	height: 800px;
-	width: 26%;
-	position: relative;
-}
-
-.nemo-block {
+.sidebar-lump-about {
 	position: relative;
 	overflow: hidden;
 	height: 262px;
@@ -165,8 +169,24 @@ a:hover {
 	box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
 	margin-bottom: 25px;
 }
+.sidebar-lump-article{
+	position: relative;
+	overflow: hidden;
+	height: 366px;
+	background: #fcfcfa;
+	box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+	margin-bottom: 25px;
+}
+.sidebar-lump-tags{
+	position: relative;
+	overflow: hidden;
+	height: 341px;
+	background: #fcfcfa;
+	box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+	margin-bottom: 25px;
+}
 
-.nemo-affiche {
+.nemo-style {
 	background: #f2f2f5;
 }
 
@@ -186,7 +206,8 @@ a:hover {
 .b_10_3 {
 	/*overflow: hidden;*/
 	text-align: center;
-	background: #999;
+	background: #fcfcfa;
+	
 }
 
 .b_10_3 span {
