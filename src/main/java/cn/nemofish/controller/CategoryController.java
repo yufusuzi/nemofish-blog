@@ -1,4 +1,4 @@
-package cn.nemofish.controller;
+/*package cn.nemofish.controller;
 
 
 import java.util.List;
@@ -42,3 +42,4 @@ public class CategoryController {
 	
 
 }
+*/

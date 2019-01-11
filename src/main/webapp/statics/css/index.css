@@ -41,24 +41,27 @@ a:hover {
 	text-decoration: none;
 	color: #3690cf;
 }
-
-#main {
-	/*height: 2026px;*/
-	/*margin-bottom: 72px;*/
+.box{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.main {
+	
+	margin-top: 20px;
 }
 
 .container-main {
-	max-width: 1180px;
-	height: 2072px;
-	margin: 0 auto;
-	text-align: left;
-	position: relative;
+	max-width: 1170px;
+    width: 100%;
+    min-width: 775px;
+    margin: 0 auto;
+    overflow: hidden;
 }
 .content-left {
 	width: 69%;
     padding-left: 15px;
-    margin-top: 20px;
-    height: 1960px;
+    /*margin-top: 20px;*/
+    /*height: 1960px;*/
     float: left;
 }
 .slideshow {/*轮播图*/
@@ -82,8 +85,8 @@ a:hover {
     width: 100%;
     top: 20px;
     margin-left: 0px;
-    padding-bottom: 57px;
-    /*height: 1620px;*/
+    margin-bottom: 45px;
+    padding-bottom: 68px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     border-radius: 6px;
 }
@@ -104,11 +107,19 @@ a:hover {
     list-style-type: none;
     padding: 0 20px;
 }
+.blogtab-top{
+	text-align: center;
+    margin: 12px;
+    display: inherit;
+}
 .nemo-active{
 	color:#3690CF;
 }
 #blogtab li a:hover{
 	color: #3690cf;
+}
+#blogtab li span{
+	text-align: center;
 }
 .blogs{
 	overflow: hidden;
@@ -158,7 +169,7 @@ a:hover {
     margin-left: 46px;
     height: 800px;
     width: 27%;
-    margin-top: 20px;
+    /*margin-top: 20px;*/
 }
 
 .sidebar-lump-about {
